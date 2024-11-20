@@ -1,1 +1,2 @@
+- use bootstrap
 - make point and click game using image maps

@@ -5,21 +5,23 @@ html,body{
 
 body{
     font: 76% arial,sans-serif;
-    text-align:center
+    text-align:center;
+    background-color: dimgray;
+    color: #283618;
 }
 
-p{
+p{ 
     margin:0 10px 10px
 }
 
 a{
     padding:5px;
     text-decoration:none;
-    color:#000000;
+    color: #DD8A2A;
 }
 
 div#header{
-    background-color:#F3F2ED;
+    background-color:whitesmoke;
 }
 
 div#header h1{
@@ -39,7 +41,7 @@ div#content p{
 }
 
 div#navigation{
-    background:#F6F0E0;
+    background-color:whitesmoke;
 }
 
 div#navigation ul{
@@ -53,11 +55,11 @@ div#navigation li{
 }
 
 div#extra{
-    background:#CCC8B3;
+    background-color:whitesmoke;
 }
 
 div#footer{
-    background:#BFBD93;
+    background-color:whitesmoke;
 }
 
 div#footer p{
@@ -72,11 +74,13 @@ div#container{
 
 div#wrapper{
     float:left;
-    width:100%
+    width:100%;
+    background-color: lightgray;
 }
 
 div#content{
-    margin: 0 150px
+    margin: 0 150px;
+    background-color: #ffffff;
 }
 
 div#navigation{
