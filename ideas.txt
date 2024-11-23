@@ -1,2 +1,3 @@
 - use bootstrap
 - make point and click game using image maps
+- mimic desktop environment, have different pages as desktop icons, contact button as mail "app"

@@ -1,4 +1,28 @@
-#navbar {
-    position: sticky;
-    top: 0;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: steelblue;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: aliceblue;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: aliceblue;
+    color: steelblue;
 }
