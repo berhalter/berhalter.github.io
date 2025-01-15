@@ -1,15 +1,28 @@
 :root {
+    /*COLORS*/
     --dark: rgb(36, 56, 94);
-    --dark-trans: rgba(36, 56, 94, 0.212);
+    --dark-trans: rgba(36, 56, 94, 0.25);
     --light: aliceblue;
     --accent: darkorange;
     --accent-trans: rgba(255, 140, 0, 0.5);
 }
 
+header {
+    padding: 1%;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(255,255,255,0.7);
-    background-image: linear-gradient(to bottom , var(--light), var(--dark-trans))
+    color: var(--dark);
+    background-image: linear-gradient(to bottom, var(--light), var(--dark-trans));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: 5%;
 }
 
 p {
@@ -27,7 +40,8 @@ a:hover {
 }
 
 .navbar {
-    position: fixed;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
     top: 0;
     left: 0;
     overflow: hidden;
@@ -41,7 +55,7 @@ a:hover {
     color: var(--light);
     padding: 14px 16px;
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     text-decoration: none;
     border-bottom: 3px solid transparent;
 }
@@ -54,4 +68,9 @@ a:hover {
 
 .navbar a.active {
     border-bottom: 3px solid var(--accent);
+}
+
+footer {
+    background-color: black;
+    color: white;
 }
