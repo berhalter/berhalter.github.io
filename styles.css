@@ -12,7 +12,8 @@ header {
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Muli, Ubuntu, sans-serif;
+    font-size: 16px;
     color: var(--dark);
     background-image: linear-gradient(to bottom, var(--light), var(--dark-trans));
     background-repeat: no-repeat;
@@ -21,12 +22,18 @@ body {
     padding: 0;
 }
 
+h1 {
+    font-family: "Space Mono", monospace;
+    font-size: 48px;
+}
+
 .content {
     margin: 5%;
 }
 
 .content p {
     color: var(--dark);
+    text-align: justify;
 }
 
 .content a {
@@ -71,6 +78,8 @@ body {
 }
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 20px;
+    text-align: center;
 }
