@@ -84,72 +84,28 @@ footer {
     text-align: center;
 }
 
-.blue_button { /*perhaps change all units to em?*/
-    font-size: xxx-large;
-    color: black;
-    text-shadow: 
-        0em 0.015em 0.05em cornflowerblue,
-        0em 0.05em 0.1em black;
-    padding: 15px;
-    border-radius: 10vh;
-    border: 1px solid rgb(20, 52, 146);
-    background-color: cornflowerblue;
-    box-shadow:
-        0vh 1vh 3vh black,
-        inset 0.5vh 0vh 0.85vh rgb(20, 52, 146),
-        inset -0.5vh 0vh 0.85vh rgb(20, 52, 146),
-        inset 2vh 0vh 2vh royalblue,
-        inset -2vh 0vh 2vh royalblue,
-        inset 0vh -2vh 3vh skyblue,
-        inset 0vh 2vh 0.5vh lightblue,
-        inset 0vh 4vh 3vh royalblue;
-}
 
-.blue_button:active {
-    border: 1px solid royalblue;
-    background-color: skyblue;
-    box-shadow:
-        0vh 1vh 3vh black,
-        inset 0.5vh 0vh 0.85vh royalblue,
-        inset -0.5vh 0vh 0.85vh royalblue,
-        inset 2vh 0vh 2vh rgb(85, 126, 202),
-        inset -2vh 0vh 2vh rgb(85, 126, 202),
-        inset 0vh -2vh 3vh skyblue,
-        inset 0vh 2vh 0.5vh lightblue,
-        inset 0vh 4vh 3vh royalblue;
+.css-button-3d{
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: var(--dark);
+  box-shadow: 0 5px var(--accent);
 }
-
-.gray_button { /*perhaps change all units to em?*/
-    font-size: xxx-large;
-    color: black;
-    text-shadow: 
-        0em 0.015em 0.05em darkgray,
-        0em 0.05em 0.1em black;
-    padding: 15px;
-    border-radius: 10vh;
-    border: 1px solid gray;
-    background-color: darkgray;
-    box-shadow:
-        0vh 1vh 3vh black,
-        inset 0.5vh 0vh 0.85vh gray,
-        inset -0.5vh 0vh 0.85vh gray,
-        inset 2vh 0vh 2vh darkgray,
-        inset -2vh 0vh 2vh darkgray,
-        inset 0vh -2vh 3vh gainsboro,
-        inset 0vh 2vh 0.5vh whitesmoke,
-        inset 0vh 4vh 3vh darkgray;
+.css-button-3d:hover {
+  box-shadow: 0 3px var(--accent);
+  top: 1px;
 }
-
-.gray_button:active {
-    border: 1px solid darkgray;
-    background-color: gainsboro;
-    box-shadow:
-        0vh 1vh 3vh black,
-        inset 0.5vh 0vh 0.85vh darkgray,
-        inset -0.5vh 0vh 0.85vh darkgray,
-        inset 2vh 0vh 2vh silver,
-        inset -2vh 0vh 2vh silver,
-        inset 0vh -2vh 3vh gainsboro,
-        inset 0vh 2vh 0.5vh whitesmoke,
-        inset 0vh 4vh 3vh darkgray;
+.css-button-3d:active {
+  box-shadow: 0 0 var(--accent);
+  top: 5px;
 }
