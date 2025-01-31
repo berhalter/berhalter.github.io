@@ -21,11 +21,17 @@ body {
     margin: 0 auto;
     padding: 0;
     max-width: 50em;
+    line-height: 1.5;
 }
 
 h1 {
     font-family: "Space Mono", monospace;
     font-size: 3rem;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
 }
 
 .content {
@@ -85,6 +91,21 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+
+.comic {
+    width: 100%;
+}
+
+ul.comicnav {
+    width: 100%;
+    list-style-type: none;
+} 
+
+ul.comicnav li {
+    display: inline;
+}
+
 
 
 .odd_button {
