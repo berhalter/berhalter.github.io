@@ -8,23 +8,24 @@
 }
 
 header {
-    padding: 1%;
+    margin: 50px 30px;
 }
 
 body {
     font-family: Muli, Ubuntu, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--dark);
     background-image: linear-gradient(to bottom, var(--light), var(--dark-trans));
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    max-width: 50em;
 }
 
 h1 {
     font-family: "Space Mono", monospace;
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .content {
@@ -47,6 +48,7 @@ h1 {
 }
 
 .navbar {
+    margin-bottom: 50px;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -85,27 +87,13 @@ footer {
 }
 
 
-.css-button-3d{
-  min-width: 130px;
-  height: 40px;
-  color: #fff;
-  padding: 5px 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  border-radius: 5px;
-  border: none;
-  background: var(--dark);
-  box-shadow: 0 5px var(--accent);
-}
-.css-button-3d:hover {
-  box-shadow: 0 3px var(--accent);
-  top: 1px;
-}
-.css-button-3d:active {
-  box-shadow: 0 0 var(--accent);
-  top: 5px;
+.odd_button {
+    margin: 10px;
+    font-size: 1rem;
+    padding: 16px;
+    border-radius: 71% 29% 75% 25% / 51% 36% 64% 49%;
+    border-color: var(--accent);
+    background-color: var(--dark);
+    color: var(--light);
+    text-shadow: 1px 1px 1px var(--accent-trans);
 }
